@@ -1,0 +1,12 @@
+/***********************
+  REFERENCES
+************************/
+
+#ref_box{
+    position: relative;
+    font-size: 1.2em;
+    left: 0px;
+    top: 0px;
+    width: 700px;
+    height: 650px;
+}

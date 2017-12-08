@@ -1,0 +1,178 @@
+/***********************
+  GENERAL LAYOUT
+************************/
+
+body{
+	color: #333333;
+	font: 14px/1.5 Arial, sans-serif;
+}
+
+a:link, a:visited{
+	color: #296eb3;
+}
+
+/***********************
+  GENERAL CONTENT
+************************/
+
+#frame,
+#content,
+#rodape{
+	clear: both;
+	margin: auto;
+	width: 930px;
+	padding: 10px;
+}
+
+#content{
+    border-top: 2px solid #1d0b70;
+    border-left: 2px solid #1d0b70;
+    border-right: 2px solid #1d0b70;
+    border-bottom: 2px solid #1d0b70;
+}
+
+/***********************
+  FRAME
+************************/
+
+#frame{
+    position: relative;
+    height: 190px;
+}
+
+#top-image{
+	position: relative;
+	background-image: url(../img/frame/newTop.png);
+	left: 5px;
+	width: 931px;
+	height: 200px;
+}
+
+#subtitle{
+    position: relative;
+    color: #1d0b70;
+    bottom: 5px;
+    left: 30px;
+    font-size: 10.2pt;
+}
+
+#imgbox1{
+    position: relative;
+    background-image: url(../img/frame/medicine1.jpg);
+    width: 100px;
+    height: 67px;
+    left: 96%;
+    top: -60px;
+}
+
+#imgbox2{
+    position: relative;
+    background-image: url(../img/frame/research_02.jpg);
+    width: 120px;
+    height: 151px;
+    left: 86%;
+    top: -90px;
+}
+
+#imgbox3{
+    position: relative;
+    background-image: url(../img/frame/research.jpg);
+    width: 130px;
+    height: 161px;
+    left: 97%;
+    top: -200px;
+}
+
+#support{
+    position: relative;
+    left: -11%;
+    top: -340px;
+    font-size: 1.20em;
+}
+
+#logofederal{
+    position: relative;
+    background-image: url(../img/frame/ufpe.jpg);
+    width: 100px;
+    height: 101px;
+    left: -13.5%;
+    top: -330px;
+}
+
+#logocin{
+    position: relative;
+    background: url(../img/frame/cin.jpg);
+    width: 100px;
+    height: 49px;
+    left: -13.5%;
+    top: -315px;
+}
+
+#funding{
+    position: relative;
+    left: -11%;
+    top: -285px;
+    font-size: 1.20em;
+}
+
+#logofacepe{
+    position: relative;
+    background: url(../img/frame/facepe.JPG);
+    width: 100px;
+    height: 100px;
+    left: -13%;
+    top: -285px;
+}
+
+#logocnpq{
+    position: relative;
+    background: url(../img/frame/cnpq.PNG);
+    width: 100px;
+    height: 70px;
+    left: -13%;
+    top: -270px;
+}
+
+#blueline{
+    position: relative;
+    border-left: 2px solid #1d0b70;
+    border-bottom: 2px solid #1d0b70;
+    width: 70px;
+    height: 305px;
+    left: 3px;
+    top: -949px;
+    z-index: -1;
+}
+
+#bluedegrade{
+    position: relative;
+    background: url(../img/frame/degrade.png);
+    width: 100px;
+    height: 40px;
+    left: 0px;
+    top: 267px;
+    z-index: 100;
+}
+
+/***********************
+  CONTENT
+************************/
+
+#main-content{
+    position: relative;
+	margin: 0 50px;
+}
+
+#main-content h1{
+    position: relative;
+    color: #1d0b70;
+}
+
+/***********************
+  BOTTOM
+************************/
+#bottom{
+	font-size: 11px;
+	padding: 5px 10px;
+	text-align: center;
+}

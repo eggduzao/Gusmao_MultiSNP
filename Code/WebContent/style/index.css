@@ -1,0 +1,30 @@
+/***********************
+  Main
+************************/
+
+#main_img1{
+    position: relative;
+    background-image: url(../img/frame/crop.jpg);
+    left: -20px;
+    top: 0px;
+    width: 420px;
+    height: 345px;
+    border-top: 1px solid #1d0b70;
+    border-bottom: 1px solid #1d0b70;
+}
+
+#main_text{
+    position: relative;
+    left: 180px;
+    top: -360px;
+    width: 680px;
+    height: 1px;
+}
+
+#main_credits{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    height: 65px;
+}

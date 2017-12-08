@@ -1,0 +1,419 @@
+@CHARSET "ISO-8859-1";
+
+/***********************
+  PIA
+************************/
+
+#pia-main{
+	position: relative;
+	width: 910px;
+	height: 1500px;
+	left: -40px;
+	top: 0px;
+}
+
+#pia-intro-text{
+	position: relative;
+	width: 800px;
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pia-container1{
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 20px;
+	height: 216px;
+}
+
+#pia-text1{
+	position: relative;
+	width: 665px;
+	height: 128px;
+	left: 235px;
+	top: -198px;
+}
+
+#pia-img1{
+	position: relative;
+	background-image: url(../img/method/pia_genoPhenoTable.PNG);
+	width: 218px;
+	height: 168px;
+	left: 0px;
+	top: 10px;
+}
+
+#pia-img1-subtitle{
+	position: relative;
+	width: 50px;
+	height: 30px;
+	left: 80px;
+	top: 10px;
+}
+
+#pia-formula1{
+	position: relative;
+	background-image: url(../img/method/pia_confusionScores.PNG);
+	width: 620px;
+	height: 67px;
+	left: 260px;
+	top: -188px;
+}
+
+#pia-container2{
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 40px;
+	height: 380px;
+}
+
+#pia-text2{
+	position: relative;
+	width: 610px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+
+#pia-img2{
+	position: relative;
+	background-image: url(../img/method/pia_contTable.PNG);
+	width: 264px;
+	height: 134px;
+	left: 630px;
+	top: -90px;
+}
+
+#pia-img2-subtitle{
+	position: relative;
+	width: 50px;
+	height: 30px;
+	left: 740px;
+	top: -90px;
+}
+
+#pia-formula2{
+	position: relative;
+	background-image: url(../img/method/pia_statScores.PNG);
+	width: 550px;
+	height: 138px;
+	left: 30px;
+	top: -144px;
+}
+
+#pia-text3{
+	position: relative;
+	width: 610px;
+	height: 130px;
+	left: 0px;
+	top: -120px;
+}
+
+#pia-img3{
+	position: relative;
+	background-image: url(../img/method/pia_genoPhenoTableVariables.PNG);
+	width: 264px;
+	height: 159px;
+	left: 630px;
+	top: -290px;
+}
+
+#pia-img3-subtitle{
+	position: relative;
+	width: 50px;
+	height: 30px;
+	left: 740px;
+	top: -290px;
+}
+
+#pia-parameters{
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+	height: 500px;
+}
+
+#pia-results-shown{
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	top: -40px;
+	height: 150px;
+}
+
+/***********************
+  MDR
+************************/
+
+#mdr-main{
+	position: relative;
+	width: 910px;
+	height: 1400px;
+	left: -40px;
+	top: 0px;
+}
+
+#mdr-intro-text{
+	position: relative;
+	width: 800px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mdr-img1{
+	position: relative;
+	background-image: url(../img/method/mdr_summary.PNG);
+	width: 498px;
+	height: 367px;
+	left: 200px;
+	top: 20px;
+}
+
+#mdr-img1-subtitle{
+	position: relative;
+	width: 480px;
+	height: 40px;
+	top: 15px;
+	left: 220px;
+}
+
+#mdr-text{
+	position: relative;
+	width: 800px;
+	height: 300px;
+	top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mdr-parameters{
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	top: -50px;
+	height: 380px;
+}
+
+#mdr-results-shown{
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	top: -80px;
+	height: 240px;
+}
+
+
+/***********************
+  ESNP2
+************************/
+
+#esnp2-main{
+	position: relative;
+	width: 910px;
+	height: 1130px;
+	left: -40px;
+	top: 0px;
+}
+
+#esnp2-intro-text{
+	position: relative;
+	width: 800px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#esnp2-img1{
+	position: relative;
+	background-image: url(../img/method/esnp2_singleEntropy.PNG);
+	width: 558px;
+	height: 93px;
+	top: 100px;
+	margin-left: 140px;
+}
+
+#esnp2-text1{
+	position: relative;
+	width: 800px;
+	height: 280px;
+	top: 130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#esnp2-img2{
+	position: relative;
+	background-image: url(../img/method/esnp2_combEntropy.PNG);
+	width: 595px;
+	height: 92px;
+	top: -40px;
+	margin-left: 140px;
+}
+
+#esnp2-text2{
+	position: relative;
+	width: 800px;
+	height: 280px;
+	top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#esnp2-img3{
+	position: relative;
+	background-image: url(../img/method/esnp2_deltaR.PNG);
+	width: 521px;
+	height: 66px;
+	top: -240px;
+	margin-left: 160px;
+}
+
+#esnp2-parameters{
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	top: -250px;
+	height: 340px;
+}
+
+#esnp2-results-shown{
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	top: -400px;
+	height: 180px;
+}
+
+/***********************
+  MASS
+************************/
+
+#mass-main{
+	position: relative;
+	width: 910px;
+	height: 1400px;
+	left: -40px;
+	top: 0px;
+}
+
+#mass-intro-text{
+	position: relative;
+	width: 800px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mass-img1{
+	position: relative;
+	background-image: url(../img/method/Figura_6_MASS.png);
+	width: 780px;
+	height: 210px;
+	top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mass-img1-subtitle{
+	position: relative;
+	width: 558px;
+	height: 93px;
+	top: 10px;
+	margin-left: 360px;
+}
+
+#mass-text1{
+	position: relative;
+	width: 800px;
+	height: 280px;
+	top: -30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mass-text2{
+	position: relative;
+	width: 800px;
+	height: 280px;
+	top: -200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mass-img2{
+	position: relative;
+	background-image: url(../img/method/Quadro_5_Metricas_MASS.png);
+	width: 780px;
+	height: 148px;
+	top: -380px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mass-img2-subtitle{
+	position: relative;
+	width: 558px;
+	height: 93px;
+	top: -370px;
+	margin-left: 340px;
+}
+
+#mass-parameters{
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	top: -450px;
+	height: 340px;
+}
+
+#mass-results-shown{
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	top: -420px;
+	height: 180px;
+}
+
+/***********************
+  DATA INPUT FORMAT
+************************/
+
+#data-text{
+	position: relative;
+	width: 850px;
+	height: 300px;
+	left: -30px;
+	top: 20px;
+}
+
+#data-image{
+	position: relative;
+	background-image: url(../img/method/data_sampleBase.PNG);
+	width: 862px;
+	height: 175px;
+	left: -30px;
+	top: -55px;
+}
+
+#data-image-subtitle{
+	position: relative;
+	width: 200px;
+	height: 30px;
+	left: 280px;
+	top: -43px;
+}

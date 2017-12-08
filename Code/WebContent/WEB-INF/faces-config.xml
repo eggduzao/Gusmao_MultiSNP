@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE faces-config PUBLIC
+    "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.1//EN"
+    "http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
+
+<faces-config>
+
+	<navigation-rule>
+
+  		<from-view-id>*</from-view-id>
+
+  		<navigation-case>
+    		<from-outcome>screenPia</from-outcome>
+    		<to-view-id>/result_pia.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>screenMdr</from-outcome>
+    		<to-view-id>/result_mdr.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>screenEsnp2</from-outcome>
+    		<to-view-id>/result_esnp2.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>screenMass</from-outcome>
+    		<to-view-id>/result_mass.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>screenComparative</from-outcome>
+    		<to-view-id>/result_comparative.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>returnPia</from-outcome>
+    		<to-view-id>/analysis_pia.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>returnMdr</from-outcome>
+    		<to-view-id>/analysis_mdr.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>returnEsnp2</from-outcome>
+    		<to-view-id>/analysis_esnp2.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>returnMass</from-outcome>
+    		<to-view-id>/analysis_mass.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>returnComparative</from-outcome>
+    		<to-view-id>/analysis_comparative.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>download</from-outcome>
+    		<to-view-id>/result_download.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>email</from-outcome>
+    		<to-view-id>/result_email.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+  		
+  		<navigation-case>
+    		<from-outcome>error</from-outcome>
+    		<to-view-id>/error.jsp</to-view-id>
+    		<redirect/>
+  		</navigation-case>
+
+	</navigation-rule> 
+	
+	
+	
+	<managed-bean>
+		<managed-bean-name>analysisBean</managed-bean-name>
+		<managed-bean-class>bean.AnalysisBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	
+		<managed-property>
+			<property-name>resultBean</property-name>
+			<value>#{resultBean}</value>
+		</managed-property>
+		
+		<managed-property>
+			<property-name>downloadBean</property-name>
+			<value>#{downloadBean}</value>
+		</managed-property>
+		
+		<managed-property>
+			<property-name>emailBean</property-name>
+			<value>#{emailBean}</value>
+		</managed-property>
+	
+	</managed-bean>
+	
+	<managed-bean>
+		<managed-bean-name>resultBean</managed-bean-name>
+		<managed-bean-class>bean.ResultBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	
+	<managed-bean>
+		<managed-bean-name>downloadBean</managed-bean-name>
+		<managed-bean-class>bean.DownloadBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+
+	<managed-bean>
+		<managed-bean-name>emailBean</managed-bean-name>
+		<managed-bean-class>bean.EmailBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+
+</faces-config>

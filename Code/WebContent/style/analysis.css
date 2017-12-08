@@ -1,0 +1,353 @@
+
+/***********************
+  CONTAINERS
+************************/
+
+#pia-analysis{
+	position: relative;
+    font-size: 1.2em;
+    left: 0px;
+    top: 0px;
+    width: 700px;
+    height: 370px;
+}
+
+#mdr-analysis{
+	position: relative;
+    font-size: 1.2em;
+    left: 0px;
+    top: 0px;
+    width: 700px;
+    height: 370px;
+}
+
+#esnp2-analysis{
+	position: relative;
+    font-size: 1.2em;
+    left: 0px;
+    top: 0px;
+    width: 700px;
+    height: 370px;
+}
+
+#mass-analysis{
+	position: relative;
+    font-size: 1.2em;
+    left: 0px;
+    top: 0px;
+    width: 700px;
+    height: 370px;
+}
+
+#comparative-analysis{
+	position: relative;
+    font-size: 1.2em;
+    left: 0px;
+    top: 0px;
+    width: 700px;
+    height: 370px;
+}
+
+/***********************
+  AUXILIARY
+************************/
+
+.general-title{
+	color: #1d0b70;
+	font-size: 1.2em;
+}
+
+.param-title{
+	color: #1d0b70;
+	font-size: 1.2em;
+	width: 620px;
+	position: relative;
+	background-image: url(../img/analysis/expand.png);
+	background-repeat: no-repeat;
+}
+
+.param-title:hover{
+	cursor: pointer;
+}
+
+.form .button{
+	width: 120px;
+    height: 30px;
+    font-size: 1.0em;
+}
+
+.form .help:HOVER{
+	cursor: help;
+	color:red;
+}
+
+/***********************
+  FORM
+************************/
+
+.form {
+	width: 840px;
+}
+
+.form > DIV {
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.form > DIV.primeiro {
+	clear: both;
+}
+
+.form LABEL {
+	display: block;
+}
+
+.form INPUT {
+	font-size: 12px;
+	padding: 2px 3px;
+}
+
+.form TEXTAREA {
+	font: 12px/1.25 Consolas, "Courier New", monospace;
+	padding: 4px 4px;
+}
+
+.form .botoes {
+	margin-top: 10px;
+}
+
+.form .botoes BUTTON {
+	font-size: 12px;
+}
+
+.form .botoes A {
+	font-size: 11px;
+}
+
+.form .botoes BUTTON,
+.form .botoes A {
+	margin-right: 5px;
+}
+
+.form .importante INPUT {
+	font-size: 16px;
+}
+
+/***********************
+  SPACES
+************************/
+
+.form .space20{
+    height:20px;
+}
+
+.form .space30{
+    height:30px;
+}
+
+.form .space40{
+    height:40px;
+}
+
+.form .space50{
+    height:50px;
+}
+
+.form .space60{
+    height:60px;
+}
+
+.form .space70{
+    height:70px;
+}
+
+.form .space80{
+    height:80px;
+}
+
+.form .space90{
+    height:90px;
+}
+
+.form .space100{
+    height:100px;
+}
+
+.form .space110{
+    height:110px;
+}
+
+/***********************
+  COMPRIMENTOS
+************************/
+
+.comprimento-1 INPUT[type=text],
+.comprimento-1 INPUT[type=password],
+.comprimento-1 TEXTAREA {
+	width: 20px;
+}
+
+.comprimento-2 INPUT[type=text],
+.comprimento-2 INPUT[type=password],
+.comprimento-2 TEXTAREA {
+	width: 60px;
+}
+
+.comprimento-2s INPUT[type=text],
+.comprimento-2s INPUT[type=password],
+.comprimento-2s TEXTAREA {
+	width: 60px;
+}
+
+.comprimento-3 INPUT[type=text],
+.comprimento-3 INPUT[type=password],
+.comprimento-3 TEXTAREA {
+	width: 100px;
+}
+
+.comprimento-4 INPUT[type=text],
+.comprimento-4 INPUT[type=password],
+.comprimento-4 TEXTAREA {
+	width: 100px;
+}
+
+.comprimento-5 INPUT[type=text],
+.comprimento-5 INPUT[type=password],
+.comprimento-5 TEXTAREA {
+	width: 180px;
+}
+
+.comprimento-6 INPUT[type=text],
+.comprimento-6 INPUT[type=password],
+.comprimento-6 TEXTAREA {
+	width: 220px;
+}
+
+.comprimento-7 INPUT[type=text],
+.comprimento-7 INPUT[type=password],
+.comprimento-7 TEXTAREA {
+	width: 260px;
+}
+
+.comprimento-8 INPUT[type=text],
+.comprimento-8 INPUT[type=password],
+.comprimento-8 TEXTAREA {
+	width: 300px;
+}
+
+.comprimento-9 INPUT[type=text],
+.comprimento-9 INPUT[type=password],
+.comprimento-9 TEXTAREA {
+	width: 340px;
+}
+.comprimento-10 INPUT[type=text],
+.comprimento-10 INPUT[type=password],
+.comprimento-10 TEXTAREA {
+	width: 380px;
+}
+
+.comprimento-11 INPUT[type=text],
+.comprimento-11 INPUT[type=password],
+.comprimento-11 TEXTAREA {
+	width: 420px;
+}
+
+.comprimento-12 INPUT[type=text],
+.comprimento-12 INPUT[type=password],
+.comprimento-12 TEXTAREA {
+	width: 460px;
+}
+
+.comprimento-13 INPUT[type=text],
+.comprimento-13 INPUT[type=password],
+.comprimento-13 TEXTAREA {
+	width: 500px;
+}
+
+.comprimento-14 INPUT[type=text],
+.comprimento-14 INPUT[type=password],
+.comprimento-14 TEXTAREA {
+	width: 540px;
+}
+
+.comprimento-15 INPUT[type=text],
+.comprimento-15 INPUT[type=password],
+.comprimento-15 TEXTAREA {
+	width: 580px;
+}
+
+.form DIV.comprimento-1,
+.comprimento-1 SELECT {
+	width: 30px;
+}
+
+.form DIV.comprimento-2,
+.comprimento-2 SELECT {
+	width: 70px;
+}
+
+.form DIV.comprimento-3,
+.comprimento-3 SELECT {
+	width: 102px;
+}
+
+.form DIV.comprimento-4,
+.comprimento-4 SELECT {
+	width: 150px;
+}
+
+.form DIV.comprimento-5,
+.comprimento-5 SELECT {
+	width: 190px;
+}
+
+.form DIV.comprimento-6,
+.comprimento-6 SELECT {
+	width: 230px;
+}
+
+.form DIV.comprimento-7,
+.comprimento-7 SELECT {
+	width: 270px;
+}
+
+.form DIV.comprimento-8,
+.comprimento-8 SELECT {
+	width: 310px;
+}
+
+.form DIV.comprimento-9,
+.comprimento-9 SELECT {
+	width: 350px;
+}
+
+.form DIV.comprimento-10,
+.comprimento-10 SELECT {
+	width: 390px;
+}
+
+.form DIV.comprimento-11,
+.comprimento-11 SELECT {
+	width: 430px;
+}
+
+.form DIV.comprimento-12,
+.comprimento-12 SELECT {
+	width: 470px;
+}
+
+.form DIV.comprimento-13,
+.comprimento-13 SELECT {
+	width: 520px;
+}
+
+.form DIV.comprimento-14,
+.comprimento-14 SELECT {
+	width: 540px;
+}
+
+.form DIV.comprimento-15,
+.comprimento-15 SELECT {
+	width: 580px;
+}
